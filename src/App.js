@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+// link to ninja tutorial
+// https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=3
 function App(){
 	return (
 		<div className="App">
