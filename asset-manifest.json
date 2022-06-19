@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-ninja/static/css/main.e31b40b2.css",
-    "main.js": "/react-ninja/static/js/main.9236f863.js",
-    "static/media/1.png": "/react-ninja/static/media/1.317db936235532120fc4.png",
+    "main.css": "/react-ninja/static/css/main.b6371cd3.css",
+    "main.js": "/react-ninja/static/js/main.46291076.js",
+    "static/media/1.png": "/react-ninja/static/media/1.38502c81650abac5d26e.png",
     "index.html": "/react-ninja/index.html",
-    "main.e31b40b2.css.map": "/react-ninja/static/css/main.e31b40b2.css.map",
-    "main.9236f863.js.map": "/react-ninja/static/js/main.9236f863.js.map"
+    "main.b6371cd3.css.map": "/react-ninja/static/css/main.b6371cd3.css.map",
+    "main.46291076.js.map": "/react-ninja/static/js/main.46291076.js.map"
   },
   "entrypoints": [
-    "static/css/main.e31b40b2.css",
-    "static/js/main.9236f863.js"
+    "static/css/main.b6371cd3.css",
+    "static/js/main.46291076.js"
   ]
 }
