@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+body {
+	background-color: #918e9b;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 300px;
+	height: 650px;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	border-radius: 1rem;
+	background-color: #23252c;
+}
+
+.footer--list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #918e9b;
+	background-color: #161619;
+	font-size: 1.4rem;
+	padding: 8px 40px;
+}
+.footer--list li {
+	cursor: pointer;
+	margin: 4px 30px;
+}
+
+header {
+	height: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+header img {
+	background-color: #f3bf99;
+	width: 100%;
+	height: 100%;
+}
+header h2,
+header h3,
+header h4,
+header .buttons {
+	margin-top: 8px;
+}
+header .buttons i {
+	color: #ffffff;
+}
+header .buttons .buttons--email i {
+	color: #161619;
+}
+header h2 {
+	margin-top: 10px;
+	font-size: 25px;
+}
+header h3 {
+	margin-top: 6px;
+	font-size: 13px;
+	color: #f3bf99;
+}
+header h4 {
+	font-size: 11px;
+}
+.buttons button {
+	color: #1e1f26;
+	cursor: pointer;
+	width: 110px;
+	height: 34px;
+	border-radius: 7px;
+	margin: 0 5px;
+}
+.buttons .buttons--linkedin {
+	color: #ffffff;
+	background-color: #5093e2;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	color: #ffffff;
+	margin: 5px 1px;
+	padding: 25px;
+}
+main h1 {
+	align-self: flex-start;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+main p {
+	font-size: 10px;
+}
