@@ -9,7 +9,10 @@ export default function Header(){
 			<img src={myPic} />
 			<h2>Mostafa Rafati</h2>
 			<h3>Front End Developer</h3>
-			<h4>https://mostafa-rafati.netlify.app/</h4>
+			<h4>
+				{' '}
+				<a href="https://mostafa-rafati.netlify.app/"> https://mostafa-rafati.netlify.app/</a>
+			</h4>
 			<section className="buttons">
 				<a href="mailto:mostafarafati888@gmail.com">
 					<button className="buttons--email" type="button">
