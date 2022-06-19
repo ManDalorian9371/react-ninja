@@ -11,18 +11,22 @@ export default function Header(){
 			<h3>Front End Developer</h3>
 			<h4>https://mostafa-rafati.netlify.app/</h4>
 			<section className="buttons">
-				<button className="buttons--email" type="button">
-					<i>
-						<FontAwesomeIcon icon={faEnvelope} />
-					</i>{' '}
-					Email
-				</button>
-				<button className="buttons--linkedin" type="button">
-					<i>
-						<FontAwesomeIcon icon={faLinkedin} />
-					</i>{' '}
-					LinkedIn
-				</button>
+				<a href="mailto:mostafarafati888@gmail.com">
+					<button className="buttons--email" type="button">
+						<i>
+							<FontAwesomeIcon icon={faEnvelope} />
+						</i>{' '}
+						Email
+					</button>
+				</a>
+				<a href="https://www.linkedin.com/in/rafati-mostafa/">
+					<button className="buttons--linkedin" type="button">
+						<i>
+							<FontAwesomeIcon icon={faLinkedin} />
+						</i>{' '}
+						LinkedIn
+					</button>
+				</a>
 			</section>
 		</header>
 	);

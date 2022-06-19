@@ -7,13 +7,19 @@ export default function Footer(){
 		<footer className="footer">
 			<ul className="footer--list">
 				<li className="footer--twitter">
-					<FontAwesomeIcon icon={faTwitter} />
+					<a href="https://twitter.com/ManDalorian9371">
+						<FontAwesomeIcon icon={faTwitter} />
+					</a>
 				</li>
 				<li className="footer--github">
-					<FontAwesomeIcon icon={faGithub} />
+					<a href="https://github.com/ManDalorian9371">
+						<FontAwesomeIcon icon={faGithub} />
+					</a>
 				</li>
 				<li className="footer--instagram">
-					<FontAwesomeIcon icon={faInstagram} />
+					<a href="https://www.instagram.com/mostafa_r9371/">
+						<FontAwesomeIcon icon={faInstagram} />
+					</a>
 				</li>
 			</ul>
 		</footer>
